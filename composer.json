@@ -1,0 +1,44 @@
+{
+    "name": "messageway/messagewaylaravel",
+    "description": "This package allows you to connect to MSGWay.com server from your laravel applications.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ehsan Sabet",
+            "email": "ehsan.sabet@hotmail.com"
+        }
+    ],
+    "homepage": "https://github.com/messageway/MessageWayLaravel",
+    "keywords": [
+        "Laravel",
+        "MessageWayLaravel"
+    ],
+    "require": {
+        "illuminate/support": "~9",
+        "messageway/messagewayphp": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MessageWay\\MessageWayLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MessageWay\\MessageWayLaravel\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MessageWay\\MessageWayLaravel\\MessageWayLaravelServiceProvider"
+            ],
+            "aliases": {
+                "MessageWayLaravel": "MessageWay\\MessageWayLaravel\\Facades\\MessageWayLaravel"
+            }
+        }
+    }
+}
