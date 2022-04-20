@@ -3,6 +3,8 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![MessageWay][ico-MSGWay]][link-MSGWay]
+[![MessageWay][ico-README]][link-README]
+
 
 # MessageWay Laravel
 This package allows you to connect to MSGWay.com server from your laravel applications.
@@ -107,7 +109,9 @@ MIT.
 [ico-version]: https://img.shields.io/packagist/v/messageway/messagewaylaravel.svg?style=for-the-badge
 [ico-downloads]: https://img.shields.io/packagist/dt/messageway/messagewaylaravel.svg?style=for-the-badge
 [ico-MSGWay]: https://img.shields.io/badge/-MSGWay.com-critical?link=https://MSGWay.com&style=for-the-badge
+[ico-README]: https://img.shields.io/badge/-Persian-lightgrey?link=./readme-fa.md&style=for-the-badge
 
 [link-packagist]: https://packagist.org/packages/messageway/messagewaylaravel
 [link-downloads]: https://packagist.org/packages/messageway/messagewaylaravel
 [link-MSGWay]: https://MSGWay.com/
+[link-README]: https://github.com/MessageWay/MessageWayLaravel/blob/main/readme-fa.md
