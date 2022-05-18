@@ -61,8 +61,7 @@ dump($message);
 use MessageWay\MessageWayLaravel\Facades\MessageWayLaravel;
 
 $message = MessageWayLaravel::sendViaGap('MOBILE', $templateID, [
-    'param1' => 'param 1 value',
-    'param2' => 'param 2 value',
+    'params' => ['param 1 value', 'param 2 value', 'param 3 value']
 ]);
 dump($message);
 ```
