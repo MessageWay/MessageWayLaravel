@@ -57,18 +57,6 @@ dump($message);
 ```
 </div>
 
-### ارسال از طریق واتساپ
-
-<div dir=ltr>
-
-```php
-use MessageWay\MessageWayLaravel\Facades\MessageWayLaravel;
-
-$message = MessageWayLaravel::sendViaWhatsapp('MOBILE', $templateID);
-dump($message);
-```
-</div>
-
 ### ارسال از طریق پیام‌رسان گپ
 
 <div dir=ltr>
