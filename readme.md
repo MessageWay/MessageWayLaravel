@@ -11,10 +11,12 @@ This package allows you to connect to MSGWay.com server from your laravel applic
 
 ## Available Methods
 
-- SMS (Iran: 2000, 3000, 9000)
+- SMS (Iran: 2000, 3000, 9000, 50004)
+- Global SMS (with Twilio)
 - Messenger
-    - [Whatsapp](https://whatsapp.com) Messenger
+    - ~~[Whatsapp](https://whatsapp.com) Messenger~~
     - [Gap](https://gap.im) Messenger
+    - [iGap](https://igap.net) Messenger
 - IVR
 
 
@@ -46,14 +48,6 @@ $message = MessageWayLaravel::sendViaSMS('MOBILE', $templateID);
 dump($message);
 ```
 
-### Send via Whatsapp
-
-```php
-use MessageWay\MessageWayLaravel\Facades\MessageWayLaravel;
-
-$message = MessageWayLaravel::sendViaWhatsapp('MOBILE', $templateID);
-dump($message);
-```
 
 ### Send via GapMessenger
 
